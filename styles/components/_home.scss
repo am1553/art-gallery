@@ -1,0 +1,41 @@
+header {
+  img {
+    display: block;
+    width: 100%;
+  }
+}
+
+.home {
+  h1 {
+    margin: 2rem 0;
+  }
+  button {
+    margin: 2rem 0;
+    height: 4.5rem;
+    width: 16.3rem;
+    display: flex;
+    border: none;
+    .button-text {
+      background-color: $darkest-gray;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .arrow-img {
+      width: 3.5rem;
+      height: 100%;
+      background-color: $gold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        height: 1.5rem;
+        width: auto;
+      }
+    }
+  }
+}

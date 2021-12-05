@@ -7,4 +7,14 @@
 body {
   width: 100%;
   min-height: 100vh;
+
+  section {
+    width: 90%;
+    margin: 0 auto;
+
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
 }

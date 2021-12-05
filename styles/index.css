@@ -23,8 +23,8 @@ h3 {
 }
 
 h4 {
-  font-size: 2.25rem;
-  line-height: 2.25rem;
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+  text-transform: uppercase;
 }
 
 p {
@@ -42,12 +42,13 @@ p {
   line-height: clamp(1.625rem, 2vh, 1.75rem);
 }
 
-button {
+.button-text {
   font-family: "Big Shoulders Display", cursive;
   font-weight: 800;
   font-size: 20px;
   letter-spacing: 3.64px;
   color: #fff;
+  text-transform: uppercase;
 }
 
 * {
@@ -60,5 +61,133 @@ button {
 body {
   width: 100%;
   min-height: 100vh;
+}
+
+body section {
+  width: 90%;
+  margin: 0 auto;
+}
+
+body section img {
+  display: block;
+  width: 100%;
+}
+
+header img {
+  display: block;
+  width: 100%;
+}
+
+.home h1 {
+  margin: 2rem 0;
+}
+
+.home button {
+  margin: 2rem 0;
+  height: 4.5rem;
+  width: 16.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: none;
+}
+
+.home button .button-text {
+  background-color: #151515;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home button .arrow-img {
+  width: 3.5rem;
+  height: 100%;
+  background-color: #d5966c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home button .arrow-img img {
+  height: 1.5rem;
+  width: auto;
+}
+
+.experience {
+  margin-top: 8rem;
+}
+
+.experience h2,
+.experience p {
+  margin: 2rem 0;
+}
+
+.experience img {
+  margin: 1rem 0;
+}
+
+.experience footer {
+  background-color: #151515;
+  padding: 1rem 1.5rem;
+}
+
+.experience footer h2,
+.experience footer p {
+  color: #fff;
+}
+
+.home-footer {
+  background-color: #151515;
+  padding: 2rem 2rem;
+  margin-top: 7rem;
+}
+
+.home-footer h4,
+.home-footer p {
+  color: #fff;
+}
+
+.home-footer h4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 1rem 0;
+}
+
+.home-footer p {
+  margin: 2rem 0;
+}
+
+.home-footer .socials {
+  margin: 1rem 0;
+}
+
+.home-footer .socials ul {
+  width: 7rem;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=index.css.map */

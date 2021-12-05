@@ -1,0 +1,28 @@
+.home-footer {
+  background-color: $darkest-gray;
+  padding: 2rem 2rem;
+  margin-top: 7rem;
+  h4,
+  p {
+    color: $white;
+  }
+  h4 {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+  }
+
+  p {
+    margin: 2rem 0;
+  }
+
+  .socials {
+    margin: 1rem 0;
+    ul {
+      width: 7rem;
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
