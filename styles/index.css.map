@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "index.scss",
+        "general/_variables.scss",
+        "general/_fonts.scss",
+        "general/_common.scss"
+    ],
+    "names": [],
+    "file": "index.css"
+}
