@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/am1553/art-gallery)
-- Live Site URL: [Add live site URL here](https://am1553.github.io/art-gallery/)
+- Solution URL: [Click Here to View Solution](https://github.com/am1553/art-gallery)
+- Live Site URL: [Click Here to View Live](https://am1553.github.io/art-gallery/)
 
 ## My process
 
