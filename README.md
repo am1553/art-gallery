@@ -27,9 +27,20 @@ Users should be able to:
 
 ### Screenshot
 
+# Desktop Home Page
+
 ![Image of home-page](./home-page.png)
+
+# Mobile Home Page
+
 ![Image of mobile-home-page](./mobile-home-page.png)
+
+# Desktop Location Page
+
 ![Image of location-page](./location-page.png)
+
+# Mobile Location Page
+
 ![Image of mobile-location-page](./mobile-location-page.png)
 
 ### Links
