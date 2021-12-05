@@ -96,5 +96,3 @@ I want to start applying my learnings of React on the next project.
 
 - Website - [Aryan Mehta](https://aryanm.com)
 - Frontend Mentor - [@am1553](https://www.frontendmentor.io/profile/am1553)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
