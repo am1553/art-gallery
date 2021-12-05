@@ -64,6 +64,7 @@ gsap.from('.home-footer', {
         start: '-380%',
         end: 'bottom',
     },
+    delay: 0.4,
     opacity: 0,
     duration: 1,
     ease: 'back',
