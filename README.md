@@ -28,8 +28,9 @@ Users should be able to:
 ### Screenshot
 
 ![Image of home-page](./home-page.png)
-<br>
+![Image of mobile-home-page](./mobile-home-page.png)
 ![Image of location-page](./location-page.png)
+![Image of mobile-location-page](./mobile-location-page.png)
 
 ### Links
 
