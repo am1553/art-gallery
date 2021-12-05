@@ -28,7 +28,8 @@ Users should be able to:
 ### Screenshot
 
 ![Image of home-page](./home-page.png)
-![Image of location-page](./home-page.png)
+<br>
+![Image of location-page](./location-page.png)
 
 ### Links
 
