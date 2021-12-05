@@ -1,0 +1,58 @@
+body {
+  position: relative;
+  .location-btn {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    flex-direction: row-reverse;
+    width: 70%;
+    max-width: 20rem;
+  }
+  .location-details {
+    margin: 0;
+    width: 100%;
+    background-color: $darkest-gray;
+    padding: 3rem 1.5rem 3rem;
+    h2,
+    h3,
+    p {
+      padding: 1rem 0;
+    }
+    h2 {
+      color: $white;
+    }
+    h3 {
+      color: $gold;
+    }
+
+    p {
+      color: $white;
+    }
+  }
+
+  .location-footer {
+    background-color: $gold;
+    padding: 3rem 2rem;
+    h4 {
+      display: flex;
+      flex-direction: column;
+    }
+    p {
+      margin: 2rem 0;
+    }
+
+    .socials {
+      margin: 1rem 0;
+      ul {
+        width: 7rem;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        img {
+          filter: invert(95%);
+        }
+      }
+    }
+  }
+}

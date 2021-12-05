@@ -1,0 +1,143 @@
+@media screen and (min-width: 680px) {
+  //   * {
+  //     margin: 0 !important;
+  //     padding: 0 !important;
+  //   }
+  header {
+    display: none;
+  }
+
+  // HOME SECTION
+
+  .home {
+    width: 100%;
+    background: url(../../assets/tablet/image-hero@2x.jpg) no-repeat;
+    background-size: contain;
+    height: 100vh;
+    position: relative;
+    .wrapper {
+      width: 50%;
+      position: absolute;
+      top: 15%;
+      left: 45%;
+    }
+  }
+
+  // EXPERIENCE SECTION
+
+  .experience {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    grid-row-gap: 0.5rem;
+    grid-column-gap: 0.5rem;
+    height: 100%;
+    img {
+      margin: 0 !important;
+      padding: 0 !important;
+      height: 100%;
+      object-fit: cover;
+    }
+    .wrapper {
+      grid-column-start: 1;
+      grid-column-end: 1;
+      grid-row-start: 1;
+      grid-row-end: 1;
+      height: 50%;
+      margin: 2rem 0;
+    }
+    .image-one {
+      grid-column-start: 2;
+      grid-column-end: 2;
+      grid-row-start: 1;
+      grid-row-end: 1;
+    }
+    .image-two {
+      height: 100%;
+      grid-column-start: 1;
+      grid-column-end: 1;
+      grid-row-start: 2;
+      grid-row-end: 4;
+    }
+    .image-three {
+      grid-column-start: 2;
+      grid-column-end: 2;
+      grid-row-start: 2;
+      grid-row-end: 3;
+    }
+    footer {
+      grid-column-start: 2;
+      grid-column-end: 2;
+      grid-row-start: 3;
+      grid-row-end: 4;
+    }
+  }
+
+  // FOOTER
+
+  .home-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    p {
+      width: 50%;
+    }
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .desktop-text {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  // HOME
+  .home {
+    margin: 0 !important;
+    width: 90%;
+    background-position: center;
+    position: relative;
+    .desktop-text {
+      position: absolute;
+      top: 20%;
+      left: 10%;
+      color: white;
+      mix-blend-mode: difference;
+      margin: 0 !important;
+    }
+    .wrapper {
+      width: 25%;
+      position: absolute;
+      left: 65% !important;
+      top: 20%;
+      h1 {
+        display: none;
+      }
+      p {
+        margin-bottom: 5rem;
+      }
+    }
+  }
+  .home::before {
+    content: "";
+    background-color: #151515;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+  }
+
+  // EXPERIENCE
+
+  .experience {
+    max-width: 70%;
+  }
+
+  .home-footer {
+    padding: 3rem 7rem !important;
+  }
+}
